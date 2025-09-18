@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: AUTHSERVICEAPP
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/authservicedb?createDatabaseIfNotExist=True
+    username: root
+    password: 4322
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+server:
+  port: 8082

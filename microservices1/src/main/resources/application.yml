@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: MICROSERVICES-1
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
