@@ -12,7 +12,11 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.microservices1.filter.JwtFilter;
 
+import java.util.*;
+
+
 @Configuration
+	@Primary
 @EnableWebSecurity
 public class AppSecurityConfig {
 	
