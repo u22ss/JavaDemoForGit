@@ -8,6 +8,8 @@ class Microservices1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+
+		System.out.println("This is microservice application");
 	}
 
 }
