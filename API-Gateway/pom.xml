@@ -14,7 +14,7 @@
 
     <groupId>com.apigateway</groupId>
     <artifactId>API-Gateway</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-release</version>
     <name>API-Gateway</name>
     <description>Reactive API Gateway with JWT and Eureka</description>
 
