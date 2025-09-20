@@ -16,7 +16,7 @@ import java.util.*;
 
 
 @Configuration
-	@Primary
+@Primary      
 @EnableWebSecurity
 public class AppSecurityConfig {
 	
